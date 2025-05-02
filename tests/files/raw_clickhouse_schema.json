@@ -1,0 +1,2396 @@
+{
+  "tables": {
+    "Here is a list of all the table names in the database:": {
+      "raw_description": "It seems there was an error in the process because the table name you provided, \"Here is a list of all the table names in the database:\", is not a valid table name. Please check the table name and provide a valid one so I can describe its structure for you.",
+      "columns": [
+        {
+          "name": "It seems there was an error in the process because the table name you provided, \"Here is a list of all the table names in the database",
+          "type": "\", is not a valid table name. Please check the table name and provide a valid one so I can describe its structure for you."
+        }
+      ]
+    },
+    "actualized_volumes": {
+      "raw_description": "The structure of the table 'actualized_volumes' consists of the following columns:\n\n1. **_id**: String\n2. **actualizedVolume**: Int32\n3. **mediaPlanId**: String\n4. **campaignId**: String\n5. **organizationId**: String\n6. **createdBy**: String\n7. **updatedBy**: String\n8. **ntmp**: Int32\n9. **ntc**: Int32\n10. **revenue**: Int32\n11. **isDeleted**: Bool\n12. **createdAt**: DateTime\n13. **updatedAt**: DateTime\n14. **__v**: Int32",
+      "columns": [
+        {
+          "name": "The structure of the table 'actualized_volumes' consists of the following columns",
+          "type": ""
+        },
+        {
+          "name": "1. **_id**",
+          "type": "String"
+        },
+        {
+          "name": "2. **actualizedVolume**",
+          "type": "Int32"
+        },
+        {
+          "name": "3. **mediaPlanId**",
+          "type": "String"
+        },
+        {
+          "name": "4. **campaignId**",
+          "type": "String"
+        },
+        {
+          "name": "5. **organizationId**",
+          "type": "String"
+        },
+        {
+          "name": "6. **createdBy**",
+          "type": "String"
+        },
+        {
+          "name": "7. **updatedBy**",
+          "type": "String"
+        },
+        {
+          "name": "8. **ntmp**",
+          "type": "Int32"
+        },
+        {
+          "name": "9. **ntc**",
+          "type": "Int32"
+        },
+        {
+          "name": "10. **revenue**",
+          "type": "Int32"
+        },
+        {
+          "name": "11. **isDeleted**",
+          "type": "Bool"
+        },
+        {
+          "name": "12. **createdAt**",
+          "type": "DateTime"
+        },
+        {
+          "name": "13. **updatedAt**",
+          "type": "DateTime"
+        },
+        {
+          "name": "14. **__v**",
+          "type": "Int32"
+        }
+      ]
+    },
+    "agency_client_access": {
+      "raw_description": "The table 'agency_client_access' has the following columns:\n\n1. **_id**: Type - String\n2. **agencyId**: Type - String\n3. **clientId**: Type - String\n4. **createdBy**: Type - String\n5. **updatedBy**: Type - String\n6. **isDeleted**: Type - Bool\n7. **createdAt**: Type - DateTime\n8. **updatedAt**: Type - DateTime\n9. **__v**: Type - Int32",
+      "columns": [
+        {
+          "name": "The table 'agency_client_access' has the following columns",
+          "type": ""
+        },
+        {
+          "name": "1. **_id**",
+          "type": "Type - String"
+        },
+        {
+          "name": "2. **agencyId**",
+          "type": "Type - String"
+        },
+        {
+          "name": "3. **clientId**",
+          "type": "Type - String"
+        },
+        {
+          "name": "4. **createdBy**",
+          "type": "Type - String"
+        },
+        {
+          "name": "5. **updatedBy**",
+          "type": "Type - String"
+        },
+        {
+          "name": "6. **isDeleted**",
+          "type": "Type - Bool"
+        },
+        {
+          "name": "7. **createdAt**",
+          "type": "Type - DateTime"
+        },
+        {
+          "name": "8. **updatedAt**",
+          "type": "Type - DateTime"
+        },
+        {
+          "name": "9. **__v**",
+          "type": "Type - Int32"
+        }
+      ]
+    },
+    "agency_groups": {
+      "raw_description": "The structure of the table 'agency_groups' includes the following columns:\n\n1. **_id**: String\n2. **title**: String\n3. **agency**: Array(String)\n4. **isDeleted**: Bool\n5. **createdAt**: DateTime\n6. **updatedAt**: DateTime\n7. **__v**: Int32",
+      "columns": [
+        {
+          "name": "The structure of the table 'agency_groups' includes the following columns",
+          "type": ""
+        },
+        {
+          "name": "1. **_id**",
+          "type": "String"
+        },
+        {
+          "name": "2. **title**",
+          "type": "String"
+        },
+        {
+          "name": "3. **agency**",
+          "type": "Array(String)"
+        },
+        {
+          "name": "4. **isDeleted**",
+          "type": "Bool"
+        },
+        {
+          "name": "5. **createdAt**",
+          "type": "DateTime"
+        },
+        {
+          "name": "6. **updatedAt**",
+          "type": "DateTime"
+        },
+        {
+          "name": "7. **__v**",
+          "type": "Int32"
+        }
+      ]
+    },
+    "agents": {
+      "raw_description": "The structure of the table 'agents' contains the following columns:\n\n1. **_id**: String\n2. **agencyId**: String\n3. **agentId**: String\n4. **name**: String\n5. **createdAt**: DateTime\n6. **isDeleted**: Bool\n7. **conversationConfig_asr_quality**: String\n8. **conversationConfig_asr_provider**: String\n9. **conversationConfig_asr_user_input_audio_format**: String\n10. **conversationConfig_turn_turn_timeout**: Int32\n11. **conversationConfig_turn_silence_end_call_timeout**: Int32\n12. **conversationConfig_turn_mode**: String\n13. **conversationConfig_tts_model_id**: String\n14. **conversationConfig_tts_voice_id**: String\n15. **conversationConfig_tts_agent_output_audio_format**: String\n16. **conversationConfig_tts_optimize_streaming_latency**: Int32\n17. **conversationConfig_tts_stability**: Float32\n18. **conversationConfig_tts_speed**: Float32\n19. **conversationConfig_tts_similarity_boost**: Float32\n20. **conversationConfig_conversation_max_duration_seconds**: Int32\n21. **conversationConfig_agent_first_message**: String\n22. **conversationConfig_agent_language**: String\n23. **conversationConfig_agent_prompt_prompt**: String\n24. **conversationConfig_agent_prompt_llm**: String\n25. **conversationConfig_agent_prompt_temperature**: Float32\n26. **conversationConfig_agent_prompt_max_tokens**: Int32\n27. **conversationConfig_agent_prompt_rag_enabled**: Bool\n28. **conversationConfig_agent_prompt_rag_embedding_model**: String\n29. **conversationConfig_agent_prompt_rag_max_vector_distance**: Float32\n30. **conversationConfig_agent_prompt_rag_max_documents_length**: Int32\n31. **metadata_created_at_unix_secs**: UInt64\n32. **platformSettings_privacy_record_voice**: Bool\n33. **platformSettings_privacy_retention_days**: Int32\n34. **platformSettings_privacy_delete_transcript_and_pii**: Bool\n35. **platformSettings_privacy_delete_audio**: Bool\n36. **platformSettings_call_limits_agent_concurrency_limit**: Int32\n37. **platformSettings_call_limits_daily_limit**: Int32\n38. **platformSettings_safety_is_blocked_ivc**: Bool\n39. **platformSettings_safety_is_blocked_non_ivc**: Bool\n40. **platformSettings_safety_ignore_safety_evaluation**: Bool\n\nEach column is accompanied by its data type.",
+      "columns": [
+        {
+          "name": "The structure of the table 'agents' contains the following columns",
+          "type": ""
+        },
+        {
+          "name": "1. **_id**",
+          "type": "String"
+        },
+        {
+          "name": "2. **agencyId**",
+          "type": "String"
+        },
+        {
+          "name": "3. **agentId**",
+          "type": "String"
+        },
+        {
+          "name": "4. **name**",
+          "type": "String"
+        },
+        {
+          "name": "5. **createdAt**",
+          "type": "DateTime"
+        },
+        {
+          "name": "6. **isDeleted**",
+          "type": "Bool"
+        },
+        {
+          "name": "7. **conversationConfig_asr_quality**",
+          "type": "String"
+        },
+        {
+          "name": "8. **conversationConfig_asr_provider**",
+          "type": "String"
+        },
+        {
+          "name": "9. **conversationConfig_asr_user_input_audio_format**",
+          "type": "String"
+        },
+        {
+          "name": "10. **conversationConfig_turn_turn_timeout**",
+          "type": "Int32"
+        },
+        {
+          "name": "11. **conversationConfig_turn_silence_end_call_timeout**",
+          "type": "Int32"
+        },
+        {
+          "name": "12. **conversationConfig_turn_mode**",
+          "type": "String"
+        },
+        {
+          "name": "13. **conversationConfig_tts_model_id**",
+          "type": "String"
+        },
+        {
+          "name": "14. **conversationConfig_tts_voice_id**",
+          "type": "String"
+        },
+        {
+          "name": "15. **conversationConfig_tts_agent_output_audio_format**",
+          "type": "String"
+        },
+        {
+          "name": "16. **conversationConfig_tts_optimize_streaming_latency**",
+          "type": "Int32"
+        },
+        {
+          "name": "17. **conversationConfig_tts_stability**",
+          "type": "Float32"
+        },
+        {
+          "name": "18. **conversationConfig_tts_speed**",
+          "type": "Float32"
+        },
+        {
+          "name": "19. **conversationConfig_tts_similarity_boost**",
+          "type": "Float32"
+        },
+        {
+          "name": "20. **conversationConfig_conversation_max_duration_seconds**",
+          "type": "Int32"
+        },
+        {
+          "name": "21. **conversationConfig_agent_first_message**",
+          "type": "String"
+        },
+        {
+          "name": "22. **conversationConfig_agent_language**",
+          "type": "String"
+        },
+        {
+          "name": "23. **conversationConfig_agent_prompt_prompt**",
+          "type": "String"
+        },
+        {
+          "name": "24. **conversationConfig_agent_prompt_llm**",
+          "type": "String"
+        },
+        {
+          "name": "25. **conversationConfig_agent_prompt_temperature**",
+          "type": "Float32"
+        },
+        {
+          "name": "26. **conversationConfig_agent_prompt_max_tokens**",
+          "type": "Int32"
+        },
+        {
+          "name": "27. **conversationConfig_agent_prompt_rag_enabled**",
+          "type": "Bool"
+        },
+        {
+          "name": "28. **conversationConfig_agent_prompt_rag_embedding_model**",
+          "type": "String"
+        },
+        {
+          "name": "29. **conversationConfig_agent_prompt_rag_max_vector_distance**",
+          "type": "Float32"
+        },
+        {
+          "name": "30. **conversationConfig_agent_prompt_rag_max_documents_length**",
+          "type": "Int32"
+        },
+        {
+          "name": "31. **metadata_created_at_unix_secs**",
+          "type": "UInt64"
+        },
+        {
+          "name": "32. **platformSettings_privacy_record_voice**",
+          "type": "Bool"
+        },
+        {
+          "name": "33. **platformSettings_privacy_retention_days**",
+          "type": "Int32"
+        },
+        {
+          "name": "34. **platformSettings_privacy_delete_transcript_and_pii**",
+          "type": "Bool"
+        },
+        {
+          "name": "35. **platformSettings_privacy_delete_audio**",
+          "type": "Bool"
+        },
+        {
+          "name": "36. **platformSettings_call_limits_agent_concurrency_limit**",
+          "type": "Int32"
+        },
+        {
+          "name": "37. **platformSettings_call_limits_daily_limit**",
+          "type": "Int32"
+        },
+        {
+          "name": "38. **platformSettings_safety_is_blocked_ivc**",
+          "type": "Bool"
+        },
+        {
+          "name": "39. **platformSettings_safety_is_blocked_non_ivc**",
+          "type": "Bool"
+        },
+        {
+          "name": "40. **platformSettings_safety_ignore_safety_evaluation**",
+          "type": "Bool"
+        }
+      ]
+    },
+    "cachemanagements": {
+      "raw_description": "The structure of the table 'cachemanagements' includes the following columns:\n\n1. **_id**\n   - Type: String\n\n2. **route**\n   - Type: String\n\n3. **expiryPolicy**\n   - Type: Int32\n\n4. **lastFetched**\n   - Type: DateTime\n\n5. **createdAt**\n   - Type: DateTime\n\n6. **__v**\n   - Type: Int32",
+      "columns": [
+        {
+          "name": "The structure of the table 'cachemanagements' includes the following columns",
+          "type": ""
+        },
+        {
+          "name": "Type",
+          "type": "String"
+        },
+        {
+          "name": "Type",
+          "type": "String"
+        },
+        {
+          "name": "Type",
+          "type": "Int32"
+        },
+        {
+          "name": "Type",
+          "type": "DateTime"
+        },
+        {
+          "name": "Type",
+          "type": "DateTime"
+        },
+        {
+          "name": "Type",
+          "type": "Int32"
+        }
+      ]
+    },
+    "campaigns": {
+      "raw_description": "The 'campaigns' table has the following columns:\n\n1. `_id` - String\n2. `title` - String\n3. `budget` - Int32\n4. `status` - String\n5. `organizationId` - String\n6. `dspFee` - Int32\n7. `agencyId` - String\n8. `startDate` - DateTime\n9. `endDate` - DateTime\n10. `campaignObjective` - String\n11. `landingPage` - Array(String)\n12. `integrationPlatform` - String\n13. `currency` - String\n14. `createdBy` - String\n15. `updatedBy` - String\n16. `isLost` - Bool\n17. `isDropped` - Bool\n18. `isDeleted` - Bool\n19. `isPaused` - Bool\n20. `isArchived` - Bool\n21. `isApproved` - Bool\n22. `bdLead` - String\n23. `csmLead` - String\n24. `pdLead` - String\n25. `createdAt` - DateTime\n26. `updatedAt` - DateTime\n27. `__v` - Int32\n28. `campaignType` - String",
+      "columns": [
+        {
+          "name": "The 'campaigns' table has the following columns",
+          "type": ""
+        }
+      ]
+    },
+    "conversations": {
+      "raw_description": "The 'conversations' table has the following columns:\n\n1. **_id**: Type - String\n2. **agencyId**: Type - String\n3. **agentId**: Type - String\n4. **agentName**: Type - String\n5. **conversationId**: Type - String\n6. **createdAt**: Type - DateTime\n7. **callDurationSecs**: Type - UInt32\n8. **messageCount**: Type - UInt32\n9. **status**: Type - String\n10. **callSuccessful**: Type - String\n11. **recordingFileName**: Type - String\n12. **__v**: Type - UInt8",
+      "columns": [
+        {
+          "name": "The 'conversations' table has the following columns",
+          "type": ""
+        },
+        {
+          "name": "1. **_id**",
+          "type": "Type - String"
+        },
+        {
+          "name": "2. **agencyId**",
+          "type": "Type - String"
+        },
+        {
+          "name": "3. **agentId**",
+          "type": "Type - String"
+        },
+        {
+          "name": "4. **agentName**",
+          "type": "Type - String"
+        },
+        {
+          "name": "5. **conversationId**",
+          "type": "Type - String"
+        },
+        {
+          "name": "6. **createdAt**",
+          "type": "Type - DateTime"
+        },
+        {
+          "name": "7. **callDurationSecs**",
+          "type": "Type - UInt32"
+        },
+        {
+          "name": "8. **messageCount**",
+          "type": "Type - UInt32"
+        },
+        {
+          "name": "9. **status**",
+          "type": "Type - String"
+        },
+        {
+          "name": "10. **callSuccessful**",
+          "type": "Type - String"
+        },
+        {
+          "name": "11. **recordingFileName**",
+          "type": "Type - String"
+        },
+        {
+          "name": "12. **__v**",
+          "type": "Type - UInt8"
+        }
+      ]
+    },
+    "dashboard_access": {
+      "raw_description": "The table 'dashboard_access' has the following columns:\n\n1. **_id**\n   - Type: String\n\n2. **dashboardId**\n   - Type: String\n\n3. **userEmail**\n   - Type: String\n\n4. **createdAt**\n   - Type: DateTime\n\n5. **updatedAt**\n   - Type: DateTime",
+      "columns": [
+        {
+          "name": "The table 'dashboard_access' has the following columns",
+          "type": ""
+        },
+        {
+          "name": "Type",
+          "type": "String"
+        },
+        {
+          "name": "Type",
+          "type": "String"
+        },
+        {
+          "name": "Type",
+          "type": "String"
+        },
+        {
+          "name": "Type",
+          "type": "DateTime"
+        },
+        {
+          "name": "Type",
+          "type": "DateTime"
+        }
+      ]
+    },
+    "dashboards": {
+      "raw_description": "The table 'dashboards' has the following columns:\n\n1. **_id**: Type - String\n2. **dashboardId**: Type - String\n3. **name**: Type - String\n4. **createdAt**: Type - DateTime\n5. **updatedAt**: Type - DateTime\n6. **__v**: Type - Int32\n7. **isDeleted**: Type - Bool",
+      "columns": [
+        {
+          "name": "The table 'dashboards' has the following columns",
+          "type": ""
+        },
+        {
+          "name": "1. **_id**",
+          "type": "Type - String"
+        },
+        {
+          "name": "2. **dashboardId**",
+          "type": "Type - String"
+        },
+        {
+          "name": "3. **name**",
+          "type": "Type - String"
+        },
+        {
+          "name": "4. **createdAt**",
+          "type": "Type - DateTime"
+        },
+        {
+          "name": "5. **updatedAt**",
+          "type": "Type - DateTime"
+        },
+        {
+          "name": "6. **__v**",
+          "type": "Type - Int32"
+        },
+        {
+          "name": "7. **isDeleted**",
+          "type": "Type - Bool"
+        }
+      ]
+    },
+    "delivered_outcome_connectors": {
+      "raw_description": "The structure of the table 'delivered_outcome_connectors' is as follows, detailing the column names and their data types:\n\n1. **_id**: String\n2. **organizationId**: String\n3. **createdBy**: String\n4. **updatedBy**: String\n5. **mediaPlanId**: String\n6. **campaignId**: String\n7. **cron**: String\n8. **connector**: String\n9. **synced**: Bool\n10. **spreadsheetId**: String\n11. **range**: String\n12. **timeZone**: String\n13. **createdAt**: DateTime\n14. **updatedAt**: DateTime\n15. **__v**: Int32",
+      "columns": [
+        {
+          "name": "The structure of the table 'delivered_outcome_connectors' is as follows, detailing the column names and their data types",
+          "type": ""
+        },
+        {
+          "name": "1. **_id**",
+          "type": "String"
+        },
+        {
+          "name": "2. **organizationId**",
+          "type": "String"
+        },
+        {
+          "name": "3. **createdBy**",
+          "type": "String"
+        },
+        {
+          "name": "4. **updatedBy**",
+          "type": "String"
+        },
+        {
+          "name": "5. **mediaPlanId**",
+          "type": "String"
+        },
+        {
+          "name": "6. **campaignId**",
+          "type": "String"
+        },
+        {
+          "name": "7. **cron**",
+          "type": "String"
+        },
+        {
+          "name": "8. **connector**",
+          "type": "String"
+        },
+        {
+          "name": "9. **synced**",
+          "type": "Bool"
+        },
+        {
+          "name": "10. **spreadsheetId**",
+          "type": "String"
+        },
+        {
+          "name": "11. **range**",
+          "type": "String"
+        },
+        {
+          "name": "12. **timeZone**",
+          "type": "String"
+        },
+        {
+          "name": "13. **createdAt**",
+          "type": "DateTime"
+        },
+        {
+          "name": "14. **updatedAt**",
+          "type": "DateTime"
+        },
+        {
+          "name": "15. **__v**",
+          "type": "Int32"
+        }
+      ]
+    },
+    "docs": {
+      "raw_description": "The structure of the table 'docs' contains the following columns:\n\n1. **_id**: String\n2. **campaignId**: String\n3. **fileName**: String\n4. **fileType**: String\n5. **fileSize**: Int32\n6. **docType**: String\n7. **agencyId**: String\n8. **organizationId**: String\n9. **createdBy**: String\n10. **updatedBy**: String\n11. **isDeleted**: Bool\n12. **createdAt**: DateTime\n13. **updatedAt**: DateTime\n14. **__v**: Int32",
+      "columns": [
+        {
+          "name": "The structure of the table 'docs' contains the following columns",
+          "type": ""
+        },
+        {
+          "name": "1. **_id**",
+          "type": "String"
+        },
+        {
+          "name": "2. **campaignId**",
+          "type": "String"
+        },
+        {
+          "name": "3. **fileName**",
+          "type": "String"
+        },
+        {
+          "name": "4. **fileType**",
+          "type": "String"
+        },
+        {
+          "name": "5. **fileSize**",
+          "type": "Int32"
+        },
+        {
+          "name": "6. **docType**",
+          "type": "String"
+        },
+        {
+          "name": "7. **agencyId**",
+          "type": "String"
+        },
+        {
+          "name": "8. **organizationId**",
+          "type": "String"
+        },
+        {
+          "name": "9. **createdBy**",
+          "type": "String"
+        },
+        {
+          "name": "10. **updatedBy**",
+          "type": "String"
+        },
+        {
+          "name": "11. **isDeleted**",
+          "type": "Bool"
+        },
+        {
+          "name": "12. **createdAt**",
+          "type": "DateTime"
+        },
+        {
+          "name": "13. **updatedAt**",
+          "type": "DateTime"
+        },
+        {
+          "name": "14. **__v**",
+          "type": "Int32"
+        }
+      ]
+    },
+    "events": {
+      "raw_description": "The structure of the table 'events' includes the following columns:\n\n1. **_id**: String\n2. **entityType**: String\n3. **createdBy**: String\n4. **updatedBy**: String\n5. **entityId**: String\n6. **eventType**: String\n7. **isDeleted**: Bool\n8. **createdAt**: DateTime\n9. **updatedAt**: DateTime\n10. **__v**: Int32",
+      "columns": [
+        {
+          "name": "The structure of the table 'events' includes the following columns",
+          "type": ""
+        },
+        {
+          "name": "1. **_id**",
+          "type": "String"
+        },
+        {
+          "name": "2. **entityType**",
+          "type": "String"
+        },
+        {
+          "name": "3. **createdBy**",
+          "type": "String"
+        },
+        {
+          "name": "4. **updatedBy**",
+          "type": "String"
+        },
+        {
+          "name": "5. **entityId**",
+          "type": "String"
+        },
+        {
+          "name": "6. **eventType**",
+          "type": "String"
+        },
+        {
+          "name": "7. **isDeleted**",
+          "type": "Bool"
+        },
+        {
+          "name": "8. **createdAt**",
+          "type": "DateTime"
+        },
+        {
+          "name": "9. **updatedAt**",
+          "type": "DateTime"
+        },
+        {
+          "name": "10. **__v**",
+          "type": "Int32"
+        }
+      ]
+    },
+    "finances": {
+      "raw_description": "The structure of the table 'finances' includes the following columns:\n\n1. `_id`: String\n2. `campaignId`: String\n3. `activationOrders`: Array(String)\n4. `billingOffice`: String\n5. `attachments`: Array(String)\n6. `dueDate`: DateTime\n7. `startDate`: DateTime\n8. `endDate`: DateTime\n9. `agencyId`: String\n10. `organizationId`: String\n11. `createdBy`: String\n12. `updatedBy`: String\n13. `isDeleted`: Bool\n14. `agencyGroup`: String\n15. `agency`: String\n16. `createdAt`: DateTime\n17. `updatedAt`: DateTime\n18. `__v`: UInt8\n19. `ntc`: UInt32\n20. `ntmp`: UInt32\n21. `volume`: UInt32\n22. `lineItems_id`: String\n23. `lineItems_mediaplan`: String\n\nThese columns provide various data types including `String`, `Array(String)`, `DateTime`, `Bool`, and `UInt` (Unsigned Integer).",
+      "columns": [
+        {
+          "name": "The structure of the table 'finances' includes the following columns",
+          "type": ""
+        },
+        {
+          "name": "1. `_id",
+          "type": "String"
+        },
+        {
+          "name": "2. `campaignId",
+          "type": "String"
+        },
+        {
+          "name": "3. `activationOrders",
+          "type": "Array(String)"
+        },
+        {
+          "name": "4. `billingOffice",
+          "type": "String"
+        },
+        {
+          "name": "5. `attachments",
+          "type": "Array(String)"
+        },
+        {
+          "name": "6. `dueDate",
+          "type": "DateTime"
+        },
+        {
+          "name": "7. `startDate",
+          "type": "DateTime"
+        },
+        {
+          "name": "8. `endDate",
+          "type": "DateTime"
+        },
+        {
+          "name": "9. `agencyId",
+          "type": "String"
+        },
+        {
+          "name": "10. `organizationId",
+          "type": "String"
+        },
+        {
+          "name": "11. `createdBy",
+          "type": "String"
+        },
+        {
+          "name": "12. `updatedBy",
+          "type": "String"
+        },
+        {
+          "name": "13. `isDeleted",
+          "type": "Bool"
+        },
+        {
+          "name": "14. `agencyGroup",
+          "type": "String"
+        },
+        {
+          "name": "15. `agency",
+          "type": "String"
+        },
+        {
+          "name": "16. `createdAt",
+          "type": "DateTime"
+        },
+        {
+          "name": "17. `updatedAt",
+          "type": "DateTime"
+        },
+        {
+          "name": "18. `__v",
+          "type": "UInt8"
+        },
+        {
+          "name": "19. `ntc",
+          "type": "UInt32"
+        },
+        {
+          "name": "20. `ntmp",
+          "type": "UInt32"
+        },
+        {
+          "name": "21. `volume",
+          "type": "UInt32"
+        },
+        {
+          "name": "22. `lineItems_id",
+          "type": "String"
+        },
+        {
+          "name": "23. `lineItems_mediaplan",
+          "type": "String"
+        }
+      ]
+    },
+    "invitations": {
+      "raw_description": "The structure of the table 'invitations' consists of the following columns:\n\n1. **_id**: String\n2. **invitaionId**: String\n3. **email**: String\n4. **status**: String\n5. **revoked**: Bool\n6. **product**: String\n7. **role**: String\n8. **organizationId**: String\n9. **expiresInDays**: Int32\n10. **createdBy**: String\n11. **updatedBy**: String\n12. **createdAt**: DateTime\n13. **updatedAt**: DateTime\n14. **__v**: Int32",
+      "columns": [
+        {
+          "name": "The structure of the table 'invitations' consists of the following columns",
+          "type": ""
+        },
+        {
+          "name": "1. **_id**",
+          "type": "String"
+        },
+        {
+          "name": "2. **invitaionId**",
+          "type": "String"
+        },
+        {
+          "name": "3. **email**",
+          "type": "String"
+        },
+        {
+          "name": "4. **status**",
+          "type": "String"
+        },
+        {
+          "name": "5. **revoked**",
+          "type": "Bool"
+        },
+        {
+          "name": "6. **product**",
+          "type": "String"
+        },
+        {
+          "name": "7. **role**",
+          "type": "String"
+        },
+        {
+          "name": "8. **organizationId**",
+          "type": "String"
+        },
+        {
+          "name": "9. **expiresInDays**",
+          "type": "Int32"
+        },
+        {
+          "name": "10. **createdBy**",
+          "type": "String"
+        },
+        {
+          "name": "11. **updatedBy**",
+          "type": "String"
+        },
+        {
+          "name": "12. **createdAt**",
+          "type": "DateTime"
+        },
+        {
+          "name": "13. **updatedAt**",
+          "type": "DateTime"
+        },
+        {
+          "name": "14. **__v**",
+          "type": "Int32"
+        }
+      ]
+    },
+    "knowledgebases": {
+      "raw_description": "The structure of the table 'knowledgebases' includes the following columns:\n\n1. `_id` (String)\n2. `agencyId` (String)\n3. `id` (String)\n4. `name` (String)\n5. `type` (String)\n6. `url` (String)\n7. `promptInjectable` (Bool)\n8. `metadata_last_updated_at_unix_secs` (Int32)\n9. `metadata_size_bytes` (Int32)\n10. `accessInfo_is_creator` (Bool)\n11. `accessInfo_creator_name` (String)\n12. `accessInfo_creator_email` (String)\n13. `accessInfo_role` (String)\n14. `dependentAgents_id` (String)\n15. `dependentAgents_name` (String)\n16. `dependentAgents_type` (String)\n17. `dependentAgents_created_at_unix_secs` (Int32)\n18. `dependentAgents_access_level` (String)\n19. `__v` (Int32)",
+      "columns": [
+        {
+          "name": "The structure of the table 'knowledgebases' includes the following columns",
+          "type": ""
+        }
+      ]
+    },
+    "media_plans": {
+      "raw_description": "The structure of the table 'media_plans' is as follows:\n\n1. **_id**: String\n2. **campaignId**: String\n3. **organizationId**: String\n4. **agencyId**: String\n5. **status**: String\n6. **platform**: String\n7. **countries**: Array(String)\n8. **industries**: Array(String)\n9. **languages**: Array(String)\n10. **audience**: String\n11. **adFormat**: String\n12. **description**: String\n13. **buyingModel**: String\n14. **startDate**: DateTime\n15. **endDate**: DateTime\n16. **outcomeType**: String\n17. **outcomeVolume**: UInt32\n18. **unitRate**: Float32\n19. **ntmp**: UInt32\n20. **ntc**: UInt32\n21. **revenue**: Float32\n22. **budget**: Float32\n23. **dspFee**: Float32\n24. **totalBilling**: Float32\n25. **taxVat**: Float32\n26. **taxRate**: Float32\n27. **actualizedVolume**: UInt32\n28. **isDropped**: Bool\n29. **isDeleted**: Bool\n30. **isPaused**: Bool\n31. **customData**: Array(String)\n32. **createdBy**: String\n33. **updatedBy**: String\n34. **isCampaignDeleted**: Bool\n35. **createdAt**: DateTime\n36. **updatedAt**: DateTime\n37. **__v**: UInt8\n38. **title**: String",
+      "columns": [
+        {
+          "name": "The structure of the table 'media_plans' is as follows",
+          "type": ""
+        },
+        {
+          "name": "1. **_id**",
+          "type": "String"
+        },
+        {
+          "name": "2. **campaignId**",
+          "type": "String"
+        },
+        {
+          "name": "3. **organizationId**",
+          "type": "String"
+        },
+        {
+          "name": "4. **agencyId**",
+          "type": "String"
+        },
+        {
+          "name": "5. **status**",
+          "type": "String"
+        },
+        {
+          "name": "6. **platform**",
+          "type": "String"
+        },
+        {
+          "name": "7. **countries**",
+          "type": "Array(String)"
+        },
+        {
+          "name": "8. **industries**",
+          "type": "Array(String)"
+        },
+        {
+          "name": "9. **languages**",
+          "type": "Array(String)"
+        },
+        {
+          "name": "10. **audience**",
+          "type": "String"
+        },
+        {
+          "name": "11. **adFormat**",
+          "type": "String"
+        },
+        {
+          "name": "12. **description**",
+          "type": "String"
+        },
+        {
+          "name": "13. **buyingModel**",
+          "type": "String"
+        },
+        {
+          "name": "14. **startDate**",
+          "type": "DateTime"
+        },
+        {
+          "name": "15. **endDate**",
+          "type": "DateTime"
+        },
+        {
+          "name": "16. **outcomeType**",
+          "type": "String"
+        },
+        {
+          "name": "17. **outcomeVolume**",
+          "type": "UInt32"
+        },
+        {
+          "name": "18. **unitRate**",
+          "type": "Float32"
+        },
+        {
+          "name": "19. **ntmp**",
+          "type": "UInt32"
+        },
+        {
+          "name": "20. **ntc**",
+          "type": "UInt32"
+        },
+        {
+          "name": "21. **revenue**",
+          "type": "Float32"
+        },
+        {
+          "name": "22. **budget**",
+          "type": "Float32"
+        },
+        {
+          "name": "23. **dspFee**",
+          "type": "Float32"
+        },
+        {
+          "name": "24. **totalBilling**",
+          "type": "Float32"
+        },
+        {
+          "name": "25. **taxVat**",
+          "type": "Float32"
+        },
+        {
+          "name": "26. **taxRate**",
+          "type": "Float32"
+        },
+        {
+          "name": "27. **actualizedVolume**",
+          "type": "UInt32"
+        },
+        {
+          "name": "28. **isDropped**",
+          "type": "Bool"
+        },
+        {
+          "name": "29. **isDeleted**",
+          "type": "Bool"
+        },
+        {
+          "name": "30. **isPaused**",
+          "type": "Bool"
+        },
+        {
+          "name": "31. **customData**",
+          "type": "Array(String)"
+        },
+        {
+          "name": "32. **createdBy**",
+          "type": "String"
+        },
+        {
+          "name": "33. **updatedBy**",
+          "type": "String"
+        },
+        {
+          "name": "34. **isCampaignDeleted**",
+          "type": "Bool"
+        },
+        {
+          "name": "35. **createdAt**",
+          "type": "DateTime"
+        },
+        {
+          "name": "36. **updatedAt**",
+          "type": "DateTime"
+        },
+        {
+          "name": "37. **__v**",
+          "type": "UInt8"
+        },
+        {
+          "name": "38. **title**",
+          "type": "String"
+        }
+      ]
+    },
+    "notifications": {
+      "raw_description": "The structure of the table 'notifications' consists of the following columns:\n\n1. **_id**: Type - String\n2. **sender**: Type - String\n3. **recipient**: Type - String\n4. **type**: Type - String\n5. **status**: Type - String\n6. **entityType**: Type - String\n7. **entityId**: Type - String\n8. **message**: Type - String\n9. **organizationId**: Type - String\n10. **isDeleted**: Type - Bool\n11. **createdAt**: Type - DateTime\n12. **updatedAt**: Type - DateTime\n13. **__v**: Type - Int32",
+      "columns": [
+        {
+          "name": "The structure of the table 'notifications' consists of the following columns",
+          "type": ""
+        },
+        {
+          "name": "1. **_id**",
+          "type": "Type - String"
+        },
+        {
+          "name": "2. **sender**",
+          "type": "Type - String"
+        },
+        {
+          "name": "3. **recipient**",
+          "type": "Type - String"
+        },
+        {
+          "name": "4. **type**",
+          "type": "Type - String"
+        },
+        {
+          "name": "5. **status**",
+          "type": "Type - String"
+        },
+        {
+          "name": "6. **entityType**",
+          "type": "Type - String"
+        },
+        {
+          "name": "7. **entityId**",
+          "type": "Type - String"
+        },
+        {
+          "name": "8. **message**",
+          "type": "Type - String"
+        },
+        {
+          "name": "9. **organizationId**",
+          "type": "Type - String"
+        },
+        {
+          "name": "10. **isDeleted**",
+          "type": "Type - Bool"
+        },
+        {
+          "name": "11. **createdAt**",
+          "type": "Type - DateTime"
+        },
+        {
+          "name": "12. **updatedAt**",
+          "type": "Type - DateTime"
+        },
+        {
+          "name": "13. **__v**",
+          "type": "Type - Int32"
+        }
+      ]
+    },
+    "orgaccounts": {
+      "raw_description": "The structure of the table 'orgaccounts' consists of the following columns:\n\n1. `_id`: String\n2. `id`: String\n3. `invitaionId`: String\n4. `name`: String\n5. `url`: String\n6. `externalAnalyticsProjectId`: String\n7. `externalAnalyticsAPIKey`: String\n8. `isDeleted`: Bool\n9. `createdAt`: DateTime\n10. `updatedAt`: DateTime\n11. `__v`: Int32",
+      "columns": [
+        {
+          "name": "The structure of the table 'orgaccounts' consists of the following columns",
+          "type": ""
+        },
+        {
+          "name": "1. `_id",
+          "type": "String"
+        },
+        {
+          "name": "2. `id",
+          "type": "String"
+        },
+        {
+          "name": "3. `invitaionId",
+          "type": "String"
+        },
+        {
+          "name": "4. `name",
+          "type": "String"
+        },
+        {
+          "name": "5. `url",
+          "type": "String"
+        },
+        {
+          "name": "6. `externalAnalyticsProjectId",
+          "type": "String"
+        },
+        {
+          "name": "7. `externalAnalyticsAPIKey",
+          "type": "String"
+        },
+        {
+          "name": "8. `isDeleted",
+          "type": "Bool"
+        },
+        {
+          "name": "9. `createdAt",
+          "type": "DateTime"
+        },
+        {
+          "name": "10. `updatedAt",
+          "type": "DateTime"
+        },
+        {
+          "name": "11. `__v",
+          "type": "Int32"
+        }
+      ]
+    },
+    "organizations": {
+      "raw_description": "The structure of the table 'organizations' includes the following columns:\n\n1. **_id**: String\n2. **name**: String\n3. **url**: String\n4. **type**: String\n5. **industry**: String\n6. **bdLead**: String\n7. **csmLead**: String\n8. **currency**: String\n9. **billingOffice**: String\n10. **billingPeriod**: Int32\n11. **taxRate**: Float64\n12. **createdBy**: String\n13. **updatedBy**: String\n14. **isDeleted**: Bool\n15. **createdAt**: DateTime\n16. **updatedAt**: DateTime\n17. **__v**: Int32\n18. **logo**: String\n\nThese columns define the structure and data types used within the 'organizations' table.",
+      "columns": [
+        {
+          "name": "The structure of the table 'organizations' includes the following columns",
+          "type": ""
+        },
+        {
+          "name": "1. **_id**",
+          "type": "String"
+        },
+        {
+          "name": "2. **name**",
+          "type": "String"
+        },
+        {
+          "name": "3. **url**",
+          "type": "String"
+        },
+        {
+          "name": "4. **type**",
+          "type": "String"
+        },
+        {
+          "name": "5. **industry**",
+          "type": "String"
+        },
+        {
+          "name": "6. **bdLead**",
+          "type": "String"
+        },
+        {
+          "name": "7. **csmLead**",
+          "type": "String"
+        },
+        {
+          "name": "8. **currency**",
+          "type": "String"
+        },
+        {
+          "name": "9. **billingOffice**",
+          "type": "String"
+        },
+        {
+          "name": "10. **billingPeriod**",
+          "type": "Int32"
+        },
+        {
+          "name": "11. **taxRate**",
+          "type": "Float64"
+        },
+        {
+          "name": "12. **createdBy**",
+          "type": "String"
+        },
+        {
+          "name": "13. **updatedBy**",
+          "type": "String"
+        },
+        {
+          "name": "14. **isDeleted**",
+          "type": "Bool"
+        },
+        {
+          "name": "15. **createdAt**",
+          "type": "DateTime"
+        },
+        {
+          "name": "16. **updatedAt**",
+          "type": "DateTime"
+        },
+        {
+          "name": "17. **__v**",
+          "type": "Int32"
+        },
+        {
+          "name": "18. **logo**",
+          "type": "String"
+        }
+      ]
+    },
+    "pfbm": {
+      "raw_description": "Here are the column details for the 'pfbm' table:\n\n1. **campaign_id**: String\n2. **campaign_title**: String\n3. **campaign_budget**: Float64\n4. **campaign_status**: String\n5. **campaign_start_date**: DateTime\n6. **campaign_end_date**: DateTime\n7. **campaign_created_date**: DateTime\n8. **campaign_type**: String\n9. **mediaplan_id**: String\n10. **mediaplan_title**: String\n11. **mediaplan_created_date**: DateTime\n12. **mediaplan_status**: String\n13. **mediaplan_buying_model**: String\n14. **mediaplan_platform**: String\n15. **mediaplan_countries**: Array(String)\n16. **mediaplan_industries**: Array(String)\n17. **mediaplan_languages**: Array(String)\n18. **mediaplan_audience**: String\n19. **mediaplan_adFormat**: String\n20. **mediaplan_ntc**: Float64\n21. **mediaplan_ntmp**: Float64\n22. **mediaplan_desiredvolume**: UInt32\n23. **mediaplan_actualizedvolume**: UInt32\n24. **revenue**: Float64\n25. **cost**: Float64\n\nThese columns represent various details about campaigns and mediaplans, including IDs, titles, dates, statuses, and financial metrics.",
+      "columns": [
+        {
+          "name": "Here are the column details for the 'pfbm' table",
+          "type": ""
+        },
+        {
+          "name": "1. **campaign_id**",
+          "type": "String"
+        },
+        {
+          "name": "2. **campaign_title**",
+          "type": "String"
+        },
+        {
+          "name": "3. **campaign_budget**",
+          "type": "Float64"
+        },
+        {
+          "name": "4. **campaign_status**",
+          "type": "String"
+        },
+        {
+          "name": "5. **campaign_start_date**",
+          "type": "DateTime"
+        },
+        {
+          "name": "6. **campaign_end_date**",
+          "type": "DateTime"
+        },
+        {
+          "name": "7. **campaign_created_date**",
+          "type": "DateTime"
+        },
+        {
+          "name": "8. **campaign_type**",
+          "type": "String"
+        },
+        {
+          "name": "9. **mediaplan_id**",
+          "type": "String"
+        },
+        {
+          "name": "10. **mediaplan_title**",
+          "type": "String"
+        },
+        {
+          "name": "11. **mediaplan_created_date**",
+          "type": "DateTime"
+        },
+        {
+          "name": "12. **mediaplan_status**",
+          "type": "String"
+        },
+        {
+          "name": "13. **mediaplan_buying_model**",
+          "type": "String"
+        },
+        {
+          "name": "14. **mediaplan_platform**",
+          "type": "String"
+        },
+        {
+          "name": "15. **mediaplan_countries**",
+          "type": "Array(String)"
+        },
+        {
+          "name": "16. **mediaplan_industries**",
+          "type": "Array(String)"
+        },
+        {
+          "name": "17. **mediaplan_languages**",
+          "type": "Array(String)"
+        },
+        {
+          "name": "18. **mediaplan_audience**",
+          "type": "String"
+        },
+        {
+          "name": "19. **mediaplan_adFormat**",
+          "type": "String"
+        },
+        {
+          "name": "20. **mediaplan_ntc**",
+          "type": "Float64"
+        },
+        {
+          "name": "21. **mediaplan_ntmp**",
+          "type": "Float64"
+        },
+        {
+          "name": "22. **mediaplan_desiredvolume**",
+          "type": "UInt32"
+        },
+        {
+          "name": "23. **mediaplan_actualizedvolume**",
+          "type": "UInt32"
+        },
+        {
+          "name": "24. **revenue**",
+          "type": "Float64"
+        },
+        {
+          "name": "25. **cost**",
+          "type": "Float64"
+        }
+      ]
+    },
+    "plans": {
+      "raw_description": "The structure of the table \"plans\" is as follows:\n\n1. `_id`: String\n2. `entityType`: String\n3. `createdBy`: String\n4. `updatedBy`: String\n5. `entityId`: String\n6. `organizationId`: String\n7. `agencyId`: String\n8. `planType`: String\n9. `url`: String\n10. `version`: Int32\n11. `isDeleted`: Bool\n12. `createdAt`: DateTime\n13. `updatedAt`: DateTime\n14. `__v`: Int32",
+      "columns": [
+        {
+          "name": "The structure of the table \"plans\" is as follows",
+          "type": ""
+        },
+        {
+          "name": "1. `_id",
+          "type": "String"
+        },
+        {
+          "name": "2. `entityType",
+          "type": "String"
+        },
+        {
+          "name": "3. `createdBy",
+          "type": "String"
+        },
+        {
+          "name": "4. `updatedBy",
+          "type": "String"
+        },
+        {
+          "name": "5. `entityId",
+          "type": "String"
+        },
+        {
+          "name": "6. `organizationId",
+          "type": "String"
+        },
+        {
+          "name": "7. `agencyId",
+          "type": "String"
+        },
+        {
+          "name": "8. `planType",
+          "type": "String"
+        },
+        {
+          "name": "9. `url",
+          "type": "String"
+        },
+        {
+          "name": "10. `version",
+          "type": "Int32"
+        },
+        {
+          "name": "11. `isDeleted",
+          "type": "Bool"
+        },
+        {
+          "name": "12. `createdAt",
+          "type": "DateTime"
+        },
+        {
+          "name": "13. `updatedAt",
+          "type": "DateTime"
+        },
+        {
+          "name": "14. `__v",
+          "type": "Int32"
+        }
+      ]
+    },
+    "s3_clickpipe_02a1efc1-2b4f-4048-80fa-94db1cd54abe": {
+      "raw_description": "The issue with accessing the table structure using the table name with dashes seems to have caused a syntax error. This often occurs because certain special characters, like dashes, may be interpreted differently in SQL queries. Nevertheless, the table \"s3_clickpipe_02a1efc1-2b4f-4048-80fa-94db1cd54abe\" does exist according to the list of tables, so there might be a way to access it with different syntax or by escaping certain characters.\n\nPlease check whether the naming convention is compatible with the database setup or if there are alternative methods for querying tables with such special characters. Is there anything else you would like to attempt or need assistance with?",
+      "columns": []
+    },
+    "s3_clickpipe_02a1efc1-2b4f-4048-80fa-94db1cd54abe_archive": {
+      "raw_description": "The structure of the table 's3_clickpipe_02a1efc1-2b4f-4048-80fa-94db1cd54abe_archive' consists of the following columns:\n\n1. **batch_id**: String\n2. **file_paths**: Array(String)\n3. **metadata**: String\n4. **worker_id**: String\n5. **state**: String\n6. **timestamp**: DateTime",
+      "columns": [
+        {
+          "name": "The structure of the table 's3_clickpipe_02a1efc1-2b4f-4048-80fa-94db1cd54abe_archive' consists of the following columns",
+          "type": ""
+        },
+        {
+          "name": "1. **batch_id**",
+          "type": "String"
+        },
+        {
+          "name": "2. **file_paths**",
+          "type": "Array(String)"
+        },
+        {
+          "name": "3. **metadata**",
+          "type": "String"
+        },
+        {
+          "name": "4. **worker_id**",
+          "type": "String"
+        },
+        {
+          "name": "5. **state**",
+          "type": "String"
+        },
+        {
+          "name": "6. **timestamp**",
+          "type": "DateTime"
+        }
+      ]
+    },
+    "s3_clickpipe_087eac42-3a11-4f1c-8f48-b5f60e6f4cd5": {
+      "raw_description": "It seems there's a syntax error due to the table name format. The table name 's3_clickpipe_087eac42-3a11-4f1c-8f48-b5f60e6f4cd5' might contain characters that require different handling in ClickHouse. Ensure that the table name format adheres to the database's syntax rules, or try checking for alternative naming or aliasing conventions that might be in use.",
+      "columns": []
+    },
+    "s3_clickpipe_087eac42-3a11-4f1c-8f48-b5f60e6f4cd5_archive": {
+      "raw_description": "I encountered a syntax error while attempting to retrieve the column details for the table `s3_clickpipe_087eac42-3a11-4f1c-8f48-b5f60e6f4cd5_archive`. The issue seems to be related to the table naming format with hyphens. \n\nPlease verify the table name or consider any alternate names or aliases that may be used in the system to avoid this syntax issue.",
+      "columns": []
+    },
+    "s3_clickpipe_27c28429-2649-4eb3-a040-4800891f3e13": {
+      "raw_description": "The table `s3_clickpipe_27c28429-2649-4eb3-a040-4800891f3e13` has the following column structure:\n\n1. **batch_id**: String\n2. **file_paths**: Array(String)\n3. **metadata**: String\n4. **worker_id**: String\n5. **state**: String",
+      "columns": [
+        {
+          "name": "The table `s3_clickpipe_27c28429-2649-4eb3-a040-4800891f3e13` has the following column structure",
+          "type": ""
+        },
+        {
+          "name": "1. **batch_id**",
+          "type": "String"
+        },
+        {
+          "name": "2. **file_paths**",
+          "type": "Array(String)"
+        },
+        {
+          "name": "3. **metadata**",
+          "type": "String"
+        },
+        {
+          "name": "4. **worker_id**",
+          "type": "String"
+        },
+        {
+          "name": "5. **state**",
+          "type": "String"
+        }
+      ]
+    },
+    "s3_clickpipe_27c28429-2649-4eb3-a040-4800891f3e13_archive": {
+      "raw_description": "It seems there is a syntax error due to the table name. The dashes within the table name might be causing an issue. Generally, if the table name contains special characters such as dashes, it should be properly quoted or handled according to the specific SQL syntax rules of the database. \n\nUnfortunately, without access to the exact quoting syntax required by your ClickHouse setup, I am unable to proceed directly. However, you might try manually enclosing the table name in backticks as follows:\n\n```sql\nDESCRIBE TABLE `s3_clickpipe_27c28429-2649-4eb3-a040-4800891f3e13_archive`\n```\n\nIf you have permissions, you could run this query directly in your ClickHouse environment to get the table details.",
+      "columns": [
+        {
+          "name": "Unfortunately, without access to the exact quoting syntax required by your ClickHouse setup, I am unable to proceed directly. However, you might try manually enclosing the table name in backticks as follows",
+          "type": ""
+        }
+      ]
+    },
+    "s3_clickpipe_38bf43ad-576b-426c-a3dc-df73b0dffc2f": {
+      "raw_description": "The table `s3_clickpipe_38bf43ad-576b-426c-a3dc-df73b0dffc2f` has the following column structure:\n\n1. **batch_id**: Type - String\n2. **file_paths**: Type - Array(String)\n3. **metadata**: Type - String\n4. **worker_id**: Type - String\n5. **state**: Type - String",
+      "columns": [
+        {
+          "name": "The table `s3_clickpipe_38bf43ad-576b-426c-a3dc-df73b0dffc2f` has the following column structure",
+          "type": ""
+        },
+        {
+          "name": "1. **batch_id**",
+          "type": "Type - String"
+        },
+        {
+          "name": "2. **file_paths**",
+          "type": "Type - Array(String)"
+        },
+        {
+          "name": "3. **metadata**",
+          "type": "Type - String"
+        },
+        {
+          "name": "4. **worker_id**",
+          "type": "Type - String"
+        },
+        {
+          "name": "5. **state**",
+          "type": "Type - String"
+        }
+      ]
+    },
+    "s3_clickpipe_38bf43ad-576b-426c-a3dc-df73b0dffc2f_archive": {
+      "raw_description": "It seems there is a syntax error occurring due to the naming convention of the table, particularly affected by the presence of hyphens in the table name. These errors often happen because certain SQL parsers might not correctly handle names with special characters when they are not properly quoted or escaped.\n\nWould you like me to attempt describing the table using an alternative approach, or assist you with something else?",
+      "columns": []
+    },
+    "s3_clickpipe_3c399b41-96db-4b50-9aff-fe9c49707c4c": {
+      "raw_description": "The structure of the table `s3_clickpipe_3c399b41-96db-4b50-9aff-fe9c49707c4c` consists of the following columns:\n\n1. `batch_id`: String\n2. `file_paths`: Array(String)\n3. `metadata`: String\n4. `worker_id`: String\n5. `state`: String",
+      "columns": [
+        {
+          "name": "The structure of the table `s3_clickpipe_3c399b41-96db-4b50-9aff-fe9c49707c4c` consists of the following columns",
+          "type": ""
+        },
+        {
+          "name": "1. `batch_id",
+          "type": "String"
+        },
+        {
+          "name": "2. `file_paths",
+          "type": "Array(String)"
+        },
+        {
+          "name": "3. `metadata",
+          "type": "String"
+        },
+        {
+          "name": "4. `worker_id",
+          "type": "String"
+        },
+        {
+          "name": "5. `state",
+          "type": "String"
+        }
+      ]
+    },
+    "s3_clickpipe_3c399b41-96db-4b50-9aff-fe9c49707c4c_archive": {
+      "raw_description": "It seems there was a syntax error related to the table name. The hyphens in the table name may be causing an issue. Could you verify the table name or provide details on how its stored in the Clickhouse database? Alternatively, if you have any specific details on escaping characters or pattern in naming that could resolve this issue, let me know!",
+      "columns": []
+    },
+    "s3_clickpipe_711b43d1-dd0a-4614-b6d8-ba10bdbf23c0": {
+      "raw_description": "The table `s3_clickpipe_711b43d1-dd0a-4614-b6d8-ba10bdbf23c0` has the following columns:\n\n1. `batch_id`: Type - String\n2. `file_paths`: Type - Array(String)\n3. `metadata`: Type - String\n4. `worker_id`: Type - String\n5. `state`: Type - String",
+      "columns": [
+        {
+          "name": "The table `s3_clickpipe_711b43d1-dd0a-4614-b6d8-ba10bdbf23c0` has the following columns",
+          "type": ""
+        },
+        {
+          "name": "1. `batch_id",
+          "type": "Type - String"
+        },
+        {
+          "name": "2. `file_paths",
+          "type": "Type - Array(String)"
+        },
+        {
+          "name": "3. `metadata",
+          "type": "Type - String"
+        },
+        {
+          "name": "4. `worker_id",
+          "type": "Type - String"
+        },
+        {
+          "name": "5. `state",
+          "type": "Type - String"
+        }
+      ]
+    },
+    "s3_clickpipe_711b43d1-dd0a-4614-b6d8-ba10bdbf23c0_archive": {
+      "raw_description": "It seems there is a syntax error issue in querying the structure of the table `s3_clickpipe_711b43d1-dd0a-4614-b6d8-ba10bdbf23c0_archive`. The table name contains hyphens which might be causing a problem in the query syntax. Unfortunately, I'm unable to retrieve the structure details due to this error. \n\nIf you have access to the SQL environment, you might want to try running the query with the table name enclosed in backticks or quotes, depending on the SQL syntax supported by your environment. If the issue persists, please check with your database administrator to ensure that there's no restriction or specific syntax required for handling such table names.",
+      "columns": []
+    },
+    "s3_clickpipe_736f4249-49ed-4e42-a459-c9d2a8dbff34": {
+      "raw_description": "It seems there was a syntax error when attempting to describe the table `s3_clickpipe_736f4249-49ed-4e42-a459-c9d2a8dbff34`. This might be due to the format of the table name, particularly the hyphens. If possible, could you please provide any additional context or confirm the table name format? Alternatively, let me know if there's something specific I should adjust to fit the expected format.",
+      "columns": []
+    },
+    "s3_clickpipe_736f4249-49ed-4e42-a459-c9d2a8dbff34_archive": {
+      "raw_description": "The structure of the table 's3_clickpipe_736f4249-49ed-4e42-a459-c9d2a8dbff34_archive' is as follows:\n\n1. **batch_id**: String\n2. **file_paths**: Array(String)\n3. **metadata**: String\n4. **worker_id**: String\n5. **state**: String\n6. **timestamp**: DateTime\n\nThese are the columns present in the table along with their data types.",
+      "columns": [
+        {
+          "name": "The structure of the table 's3_clickpipe_736f4249-49ed-4e42-a459-c9d2a8dbff34_archive' is as follows",
+          "type": ""
+        },
+        {
+          "name": "1. **batch_id**",
+          "type": "String"
+        },
+        {
+          "name": "2. **file_paths**",
+          "type": "Array(String)"
+        },
+        {
+          "name": "3. **metadata**",
+          "type": "String"
+        },
+        {
+          "name": "4. **worker_id**",
+          "type": "String"
+        },
+        {
+          "name": "5. **state**",
+          "type": "String"
+        },
+        {
+          "name": "6. **timestamp**",
+          "type": "DateTime"
+        }
+      ]
+    },
+    "s3_clickpipe_84b4be2c-8ef0-449a-9c7c-8257fe096eff": {
+      "raw_description": "It appears that there is a syntax error when trying to describe the table `s3_clickpipe_84b4be2c-8ef0-449a-9c7c-8257fe096eff`. This could be due to special characters or an incorrect table name format that the system doesn't recognize.\n\nIf you can refine or check the table name format for potential issues, it might be possible to proceed with a correct query. Alternatively, I recommend reaching out to your database administrator to look into the syntax handling for tables with similar names.",
+      "columns": []
+    },
+    "s3_clickpipe_84b4be2c-8ef0-449a-9c7c-8257fe096eff_archive": {
+      "raw_description": "It seems there was a syntax error with the table name due to special characters, specifically hyphens. Unfortunately, I'm unable to resolve this issue directly. Please ensure the table name is correctly formatted or check if an alias or alternative method can be used to reference the table.",
+      "columns": []
+    },
+    "s3_clickpipe_9b6c1b2e-aa6e-459d-9385-01f0e4408e00": {
+      "raw_description": "The structure of the table `s3_clickpipe_9b6c1b2e-aa6e-459d-9385-01f0e4408e00` includes the following columns:\n\n1. **batch_id**: String\n2. **file_paths**: Array(String)\n3. **metadata**: String\n4. **worker_id**: String\n5. **state**: String",
+      "columns": [
+        {
+          "name": "The structure of the table `s3_clickpipe_9b6c1b2e-aa6e-459d-9385-01f0e4408e00` includes the following columns",
+          "type": ""
+        },
+        {
+          "name": "1. **batch_id**",
+          "type": "String"
+        },
+        {
+          "name": "2. **file_paths**",
+          "type": "Array(String)"
+        },
+        {
+          "name": "3. **metadata**",
+          "type": "String"
+        },
+        {
+          "name": "4. **worker_id**",
+          "type": "String"
+        },
+        {
+          "name": "5. **state**",
+          "type": "String"
+        }
+      ]
+    },
+    "s3_clickpipe_9b6c1b2e-aa6e-459d-9385-01f0e4408e00_archive": {
+      "raw_description": "It appears there is still a syntax issue caused by the usage of hyphens in the table name when attempting to describe it. This issue occurs because certain characters don't parse correctly without being properly escaped or formatted in specific environments.\n\nUnfortunately, it seems like I cannot directly escape or correctly reformat the table name in this context to retrieve its structure directly. I recommend checking with database-specific query formatting and escaping characters, or consulting the database documentation for guidance on handling such identifiers. Alternatively, please verify if there are any specific query configurations or environments that may aid in accommodating these characters for direct descriptions.",
+      "columns": []
+    },
+    "s3_clickpipe_b2969e6e-80af-4098-8813-a304dd9df4f9": {
+      "raw_description": "It seems there's a syntax error occurring while trying to describe the table `s3_clickpipe_b2969e6e-80af-4098-8813-a304dd9df4f9`. The issue appears to be related to the interpretation of the table's UUID-like name. This is causing a misinterpretation in the query's syntax.\n\nIf you're able to, you might consider renaming the table or using it via a supported client that better handles UUID-style names.",
+      "columns": []
+    },
+    "s3_clickpipe_b2969e6e-80af-4098-8813-a304dd9df4f9_archive": {
+      "raw_description": "It seems there's a syntax error with the table name provided. The hyphen '-' is causing an issue, as it's not typically allowed in ClickHouse table names unless properly quoted or formatted. Could you double-check the table name or provide a corrected version if possible?",
+      "columns": []
+    },
+    "s3_clickpipe_buffer_02a1efc1-2b4f-4048-80fa-94db1cd54abe_0": {
+      "raw_description": "It seems that there is a syntax error occurring when trying to describe the table `s3_clickpipe_buffer_02a1efc1-2b4f-4048-80fa-94db1cd54abe_0`. This could be due to the table name including dashes which are causing issues with the query syntax.\n\nIf you have access to modify query strings or the database configuration, try enclosing the table name in backticks or quotes when running the command in the actual database environment.\n\nUnfortunately, without being able to correct the table reference syntax from this interface, I'm unable to retrieve the column details for this table.",
+      "columns": []
+    },
+    "s3_clickpipe_buffer_087eac42-3a11-4f1c-8f48-b5f60e6f4cd5_0": {
+      "raw_description": "It seems there is a syntax error with the attempt to describe the table `s3_clickpipe_buffer_087eac42-3a11-4f1c-8f48-b5f60e6f4cd5_0`. The error suggests that there might be an issue with handling the table naming format in the query. \n\nIf you have any flexibility in querying or accessing the table, I would recommend checking other ways to reference the table, or possibly renaming it to avoid syntax complications. If this is part of a larger database or system, consulting documentation or support for handling specific naming conventions might also help.\n\nIf you have another table you need assistance with, please feel free to ask!",
+      "columns": []
+    },
+    "s3_clickpipe_buffer_27c28429-2649-4eb3-a040-4800891f3e13_0": {
+      "raw_description": "It seems there is a syntax error related to the table name containing dashes when attempting to describe the table structure. The error being returned indicates that the identifier format is problematic in the given context. If there's a way to query with different escaping or workaround method, that might help, but currently, it seems direct querying with this name format is causing issues. Please check if alternate querying methods or adjustments can be made for this format in your ClickHouse context.",
+      "columns": []
+    },
+    "s3_clickpipe_buffer_38bf43ad-576b-426c-a3dc-df73b0dffc2f_0": {
+      "raw_description": "It seems there is a syntax error due to the dash '-' in the table name. Unfortunately, I'm unable to retrieve the column details from the table `s3_clickpipe_buffer_38bf43ad-576b-426c-a3dc-df73b0dffc2f_0` because of this. It might be helpful to consult a database administrator or check if there's an escaping mechanism required for querying tables with dashes in their names in the ClickHouse database you are using.",
+      "columns": []
+    },
+    "s3_clickpipe_buffer_3c399b41-96db-4b50-9aff-fe9c49707c4c_0": {
+      "raw_description": "It seems there is a persistent syntax error when trying to describe the structure of the table `s3_clickpipe_buffer_3c399b41-96db-4b50-9aff-fe9c49707c4c_0`. The issue might be related to the handling of special characters in the table name or the specific database setup.\n\nTo proceed, it would be best to consult the database documentation or support to resolve this syntax issue. Alternatively, if possible, you might try escaping the special characters in the table name or using a different method to query the table's structure within your database environment.",
+      "columns": []
+    },
+    "s3_clickpipe_buffer_711b43d1-dd0a-4614-b6d8-ba10bdbf23c0_0": {
+      "raw_description": "It seems there was a syntax error while trying to describe the structure of the table 's3_clickpipe_buffer_711b43d1-dd0a-4614-b6d8-ba10bdbf23c0_0'. The error might be related to handling special characters like '-' in the table name.\n\nCould you verify the table name and ensure it's correctly input? Alternatively, let me know if there's another action you would like me to take.",
+      "columns": []
+    },
+    "s3_clickpipe_buffer_736f4249-49ed-4e42-a459-c9d2a8dbff34_0": {
+      "raw_description": "It seems there is an issue with the table name format that is causing a syntax error. The problem arises because ClickHouse expects a different format for such operations, potentially due to the presence of hyphens or other characters in the table name. To resolve this, you may need to adjust the table name format or handle it differently within your database environment. If you have any further instructions or a different query to try, please let me know!",
+      "columns": []
+    },
+    "s3_clickpipe_buffer_84b4be2c-8ef0-449a-9c7c-8257fe096eff_0": {
+      "raw_description": "It seems there's an error in processing the table name due to its format. The ClickHouse system is interpreting parts of the table name as if it were a syntax error. Special characters such as hyphens may be causing this issue.\n\nTo proceed, you might consider checking whether the table name follows the expected database naming conventions or potentially adjusting any special characters used in your query interface, if possible. If this is a persistent table created by a system or an external service, consulting the service documentation or support might help clarify how to properly reference its name in ClickHouse queries.",
+      "columns": []
+    },
+    "s3_clickpipe_buffer_9b6c1b2e-aa6e-459d-9385-01f0e4408e00_0": {
+      "raw_description": "It seems there is a syntax error when trying to describe the table `s3_clickpipe_buffer_9b6c1b2e-aa6e-459d-9385-01f0e4408e00_0`. The error is likely due to the special character hyphen (`-`) causing the query to not be parsed correctly. \n\nUnfortunately, due to this syntax issue, I'm unable to retrieve the column details directly. Let me know if there's anything else you'd like assistance with!",
+      "columns": []
+    },
+    "s3_clickpipe_buffer_b2969e6e-80af-4098-8813-a304dd9df4f9_0": {
+      "raw_description": "It seems there was a syntax error due to the table name. The special characters like hyphens might be causing issues. Could you please check the table name and ensure it's correctly formatted or provide another name if possible?",
+      "columns": []
+    },
+    "s3_clickpipe_buffer_c3891581-104c-4b13-8c12-fae454e59e76_0": {
+      "raw_description": "The table '`s3_clickpipe_buffer_c3891581-104c-4b13-8c12-fae454e59e76_0`' has the following columns:\n\n1. **_id**: String\n2. **title**: String\n3. **campaignId**: String\n4. **organizationId**: String\n5. **agencyId**: String\n6. **status**: String\n7. **platform**: String\n8. **countries**: Array of Strings\n9. **industries**: Array of Booleans\n10. **languages**: Array of Strings\n11. **audience**: String\n12. **adFormat**: String\n13. **description**: String\n14. **buyingModel**: String\n15. **startDate**: DateTime64(3, 'UTC')\n16. **endDate**: DateTime64(3, 'UTC')\n17. **outcomeType**: String\n18. **outcomeVolume**: Int32\n19. **unitRate**: Int32\n20. **ntmp**: Int32\n21. **ntc**: Int32\n22. **revenue**: Float64\n23. **budget**: Int32\n24. **dspFee**: Int32\n25. **discount**: Int32\n26. **totalBilling**: Float64\n27. **actualizedVolume**: Int32\n28. **isDropped**: Boolean\n29. **isDeleted**: Boolean\n30. **isPaused**: Boolean\n31. **customData**: Array of Booleans\n32. **createdBy**: String\n33. **updatedBy**: String\n34. **isCampaignDeleted**: Boolean\n35. **createdAt**: DateTime64(3, 'UTC')\n36. **updatedAt**: DateTime64(3, 'UTC')\n37. **__v**: Int32",
+      "columns": [
+        {
+          "name": "The table '`s3_clickpipe_buffer_c3891581-104c-4b13-8c12-fae454e59e76_0`' has the following columns",
+          "type": ""
+        },
+        {
+          "name": "1. **_id**",
+          "type": "String"
+        },
+        {
+          "name": "2. **title**",
+          "type": "String"
+        },
+        {
+          "name": "3. **campaignId**",
+          "type": "String"
+        },
+        {
+          "name": "4. **organizationId**",
+          "type": "String"
+        },
+        {
+          "name": "5. **agencyId**",
+          "type": "String"
+        },
+        {
+          "name": "6. **status**",
+          "type": "String"
+        },
+        {
+          "name": "7. **platform**",
+          "type": "String"
+        },
+        {
+          "name": "8. **countries**",
+          "type": "Array of Strings"
+        },
+        {
+          "name": "9. **industries**",
+          "type": "Array of Booleans"
+        },
+        {
+          "name": "10. **languages**",
+          "type": "Array of Strings"
+        },
+        {
+          "name": "11. **audience**",
+          "type": "String"
+        },
+        {
+          "name": "12. **adFormat**",
+          "type": "String"
+        },
+        {
+          "name": "13. **description**",
+          "type": "String"
+        },
+        {
+          "name": "14. **buyingModel**",
+          "type": "String"
+        },
+        {
+          "name": "15. **startDate**",
+          "type": "DateTime64(3, 'UTC')"
+        },
+        {
+          "name": "16. **endDate**",
+          "type": "DateTime64(3, 'UTC')"
+        },
+        {
+          "name": "17. **outcomeType**",
+          "type": "String"
+        },
+        {
+          "name": "18. **outcomeVolume**",
+          "type": "Int32"
+        },
+        {
+          "name": "19. **unitRate**",
+          "type": "Int32"
+        },
+        {
+          "name": "20. **ntmp**",
+          "type": "Int32"
+        },
+        {
+          "name": "21. **ntc**",
+          "type": "Int32"
+        },
+        {
+          "name": "22. **revenue**",
+          "type": "Float64"
+        },
+        {
+          "name": "23. **budget**",
+          "type": "Int32"
+        },
+        {
+          "name": "24. **dspFee**",
+          "type": "Int32"
+        },
+        {
+          "name": "25. **discount**",
+          "type": "Int32"
+        },
+        {
+          "name": "26. **totalBilling**",
+          "type": "Float64"
+        },
+        {
+          "name": "27. **actualizedVolume**",
+          "type": "Int32"
+        },
+        {
+          "name": "28. **isDropped**",
+          "type": "Boolean"
+        },
+        {
+          "name": "29. **isDeleted**",
+          "type": "Boolean"
+        },
+        {
+          "name": "30. **isPaused**",
+          "type": "Boolean"
+        },
+        {
+          "name": "31. **customData**",
+          "type": "Array of Booleans"
+        },
+        {
+          "name": "32. **createdBy**",
+          "type": "String"
+        },
+        {
+          "name": "33. **updatedBy**",
+          "type": "String"
+        },
+        {
+          "name": "34. **isCampaignDeleted**",
+          "type": "Boolean"
+        },
+        {
+          "name": "35. **createdAt**",
+          "type": "DateTime64(3, 'UTC')"
+        },
+        {
+          "name": "36. **updatedAt**",
+          "type": "DateTime64(3, 'UTC')"
+        },
+        {
+          "name": "37. **__v**",
+          "type": "Int32"
+        }
+      ]
+    },
+    "s3_clickpipe_buffer_d1410993-da04-48b5-86dd-b8124615ea42_0": {
+      "raw_description": "Here are the column details for the table `s3_clickpipe_buffer_d1410993-da04-48b5-86dd-b8124615ea42_0`:\n\n1. **_id**: Type - String\n2. **agencyId**: Type - String\n3. **clientId**: Type - String\n4. **createdBy**: Type - String\n5. **updatedBy**: Type - String\n6. **isDeleted**: Type - Bool\n7. **createdAt**: Type - DateTime64(3, 'UTC')\n8. **updatedAt**: Type - DateTime64(3, 'UTC')\n9. **__v**: Type - Int32\n\nThese columns detail the structure and types within the specified table.",
+      "columns": [
+        {
+          "name": "Here are the column details for the table `s3_clickpipe_buffer_d1410993-da04-48b5-86dd-b8124615ea42_0",
+          "type": ""
+        },
+        {
+          "name": "1. **_id**",
+          "type": "Type - String"
+        },
+        {
+          "name": "2. **agencyId**",
+          "type": "Type - String"
+        },
+        {
+          "name": "3. **clientId**",
+          "type": "Type - String"
+        },
+        {
+          "name": "4. **createdBy**",
+          "type": "Type - String"
+        },
+        {
+          "name": "5. **updatedBy**",
+          "type": "Type - String"
+        },
+        {
+          "name": "6. **isDeleted**",
+          "type": "Type - Bool"
+        },
+        {
+          "name": "7. **createdAt**",
+          "type": "Type - DateTime64(3, 'UTC')"
+        },
+        {
+          "name": "8. **updatedAt**",
+          "type": "Type - DateTime64(3, 'UTC')"
+        },
+        {
+          "name": "9. **__v**",
+          "type": "Type - Int32"
+        }
+      ]
+    },
+    "s3_clickpipe_buffer_e9b8c441-1cfe-43f5-beef-212094fce4ab_0": {
+      "raw_description": "The structure of the table `s3_clickpipe_buffer_e9b8c441-1cfe-43f5-beef-212094fce4ab_0` includes the following columns:\n\n1. **_id**: String\n2. **voiceId**: String\n3. **name**: String\n4. **labels**: Tuple containing the following subfields:\n   - accent: String\n   - description: String\n   - age: String\n   - gender: String\n   - use_case: String\n   - descriptive: String\n   - language: String\n5. **previewUrl**: String\n6. **category**: String\n7. **language**: String\n8. **additionalData**: Tuple containing complex nested structures and arrays:\n   - samples: Array of Tuples with:\n     - sample_id: String\n     - file_name: String\n     - mime_type: String\n     - size_bytes: Int32\n     - hash: String\n   - fine_tuning: Tuple containing information about fine-tuning and verification status\n   - sharing: Tuple containing sharing details, including status and owner information\n   - high_quality_base_model_ids: Array of Strings\n   - verified_languages: Array of Tuples each with:\n     - language: String\n     - model_id: String\n     - accent: String\n     - locale: String\n     - preview_url: String\n   - permission_on_resource: String\n   - is_owner: Bool\n   - is_legacy: Bool\n   - is_mixed: Bool\n   - created_at_unix: Int32\n9. **__v**: Int32\n\nThese columns encompass a variety of data types from simple strings to complex nested data structures.",
+      "columns": [
+        {
+          "name": "The structure of the table `s3_clickpipe_buffer_e9b8c441-1cfe-43f5-beef-212094fce4ab_0` includes the following columns",
+          "type": ""
+        },
+        {
+          "name": "1. **_id**",
+          "type": "String"
+        },
+        {
+          "name": "2. **voiceId**",
+          "type": "String"
+        },
+        {
+          "name": "3. **name**",
+          "type": "String"
+        },
+        {
+          "name": "4. **labels**",
+          "type": "Tuple containing the following subfields:"
+        },
+        {
+          "name": "accent",
+          "type": "String"
+        },
+        {
+          "name": "description",
+          "type": "String"
+        },
+        {
+          "name": "age",
+          "type": "String"
+        },
+        {
+          "name": "gender",
+          "type": "String"
+        },
+        {
+          "name": "use_case",
+          "type": "String"
+        },
+        {
+          "name": "descriptive",
+          "type": "String"
+        },
+        {
+          "name": "language",
+          "type": "String"
+        },
+        {
+          "name": "5. **previewUrl**",
+          "type": "String"
+        },
+        {
+          "name": "6. **category**",
+          "type": "String"
+        },
+        {
+          "name": "7. **language**",
+          "type": "String"
+        },
+        {
+          "name": "8. **additionalData**",
+          "type": "Tuple containing complex nested structures and arrays:"
+        },
+        {
+          "name": "samples",
+          "type": "Array of Tuples with:"
+        },
+        {
+          "name": "sample_id",
+          "type": "String"
+        },
+        {
+          "name": "file_name",
+          "type": "String"
+        },
+        {
+          "name": "mime_type",
+          "type": "String"
+        },
+        {
+          "name": "size_bytes",
+          "type": "Int32"
+        },
+        {
+          "name": "hash",
+          "type": "String"
+        },
+        {
+          "name": "fine_tuning",
+          "type": "Tuple containing information about fine-tuning and verification status"
+        },
+        {
+          "name": "sharing",
+          "type": "Tuple containing sharing details, including status and owner information"
+        },
+        {
+          "name": "high_quality_base_model_ids",
+          "type": "Array of Strings"
+        },
+        {
+          "name": "verified_languages",
+          "type": "Array of Tuples each with:"
+        },
+        {
+          "name": "language",
+          "type": "String"
+        },
+        {
+          "name": "model_id",
+          "type": "String"
+        },
+        {
+          "name": "accent",
+          "type": "String"
+        },
+        {
+          "name": "locale",
+          "type": "String"
+        },
+        {
+          "name": "preview_url",
+          "type": "String"
+        },
+        {
+          "name": "permission_on_resource",
+          "type": "String"
+        },
+        {
+          "name": "is_owner",
+          "type": "Bool"
+        },
+        {
+          "name": "is_legacy",
+          "type": "Bool"
+        },
+        {
+          "name": "is_mixed",
+          "type": "Bool"
+        },
+        {
+          "name": "created_at_unix",
+          "type": "Int32"
+        },
+        {
+          "name": "9. **__v**",
+          "type": "Int32"
+        }
+      ]
+    },
+    "s3_clickpipe_c3891581-104c-4b13-8c12-fae454e59e76": {
+      "raw_description": "It seems there was an error with the table name 's3_clickpipe_c3891581-104c-4b13-8c12-fae454e59e76'. The error indicates a syntax issue related to the table name format. It\u2019s possible that the table name is not correctly quoted, which is required for table names with special characters like hyphens (`-`).\n\nIf you have any control over how to format the query, consider wrapping the table name in backticks or quotes to handle special characters correctly, or please provide a different table name if available.",
+      "columns": []
+    },
+    "s3_clickpipe_c3891581-104c-4b13-8c12-fae454e59e76_archive": {
+      "raw_description": "The structure of the table '`s3_clickpipe_c3891581-104c-4b13-8c12-fae454e59e76_archive`' includes the following columns:\n\n1. **batch_id**: String\n2. **file_paths**: Array(String)\n3. **metadata**: String\n4. **worker_id**: String\n5. **state**: String\n6. **timestamp**: DateTime",
+      "columns": [
+        {
+          "name": "The structure of the table '`s3_clickpipe_c3891581-104c-4b13-8c12-fae454e59e76_archive`' includes the following columns",
+          "type": ""
+        },
+        {
+          "name": "1. **batch_id**",
+          "type": "String"
+        },
+        {
+          "name": "2. **file_paths**",
+          "type": "Array(String)"
+        },
+        {
+          "name": "3. **metadata**",
+          "type": "String"
+        },
+        {
+          "name": "4. **worker_id**",
+          "type": "String"
+        },
+        {
+          "name": "5. **state**",
+          "type": "String"
+        },
+        {
+          "name": "6. **timestamp**",
+          "type": "DateTime"
+        }
+      ]
+    },
+    "s3_clickpipe_d1410993-da04-48b5-86dd-b8124615ea42": {
+      "raw_description": "It seems there is an error in retrieving the structure of the table `s3_clickpipe_d1410993-da04-48b5-86dd-b8124615ea42` due to a syntax issue with the table name. The system is unable to process the query because of the special characters in the table name. This might require handling or escaping special characters differently. If you have administrative access to the database environment or specific guidelines on querying such named tables, that might help resolve this issue.",
+      "columns": []
+    },
+    "s3_clickpipe_d1410993-da04-48b5-86dd-b8124615ea42_archive": {
+      "raw_description": "Here are the column details of the table `s3_clickpipe_d1410993-da04-48b5-86dd-b8124615ea42_archive`:\n\n1. **batch_id**\n   - Type: String\n\n2. **file_paths**\n   - Type: Array(String)\n\n3. **metadata**\n   - Type: String\n\n4. **worker_id**\n   - Type: String\n\n5. **state**\n   - Type: String\n\n6. **timestamp**\n   - Type: DateTime",
+      "columns": [
+        {
+          "name": "Here are the column details of the table `s3_clickpipe_d1410993-da04-48b5-86dd-b8124615ea42_archive",
+          "type": ""
+        },
+        {
+          "name": "Type",
+          "type": "String"
+        },
+        {
+          "name": "Type",
+          "type": "Array(String)"
+        },
+        {
+          "name": "Type",
+          "type": "String"
+        },
+        {
+          "name": "Type",
+          "type": "String"
+        },
+        {
+          "name": "Type",
+          "type": "String"
+        },
+        {
+          "name": "Type",
+          "type": "DateTime"
+        }
+      ]
+    },
+    "s3_clickpipe_e9b8c441-1cfe-43f5-beef-212094fce4ab": {
+      "raw_description": "It seems there is a syntax error while attempting to access the table `s3_clickpipe_e9b8c441-1cfe-43f5-beef-212094fce4ab`. The database system is not recognizing the full name of the table correctly, potentially due to the presence of hyphens.\n\nThis issue prevents providing the column details for this specific table. You may want to confirm the table name or consult database configuration to rectify any potential naming issues.",
+      "columns": []
+    },
+    "s3_clickpipe_e9b8c441-1cfe-43f5-beef-212094fce4ab_archive": {
+      "raw_description": "It seems there is a challenge in accessing the structure of the table named '`s3_clickpipe_e9b8c441-1cfe-43f5-beef-212094fce4ab_archive`'. There seems to be a syntax or identification issue that occurs when I try to describe the table.\n\nThis might be due to a discrepancy in how the database interprets the table name's formatting in the query. If you have any specific insights on how table names such as this are formatted or need special handling, please let me know!",
+      "columns": []
+    },
+    "tags": {
+      "raw_description": "The structure of the table 'tags' includes the following columns:\n\n1. `_id`: String\n2. `orgAccountId`: String\n3. `organizationId`: String\n4. `name`: String\n5. `pixelType`: Array(String)\n6. `order`: Int32\n7. `size`: String\n8. `value`: String\n9. `createdAt`: DateTime\n10. `updatedAt`: DateTime\n11. `__v`: Int32",
+      "columns": [
+        {
+          "name": "The structure of the table 'tags' includes the following columns",
+          "type": ""
+        },
+        {
+          "name": "1. `_id",
+          "type": "String"
+        },
+        {
+          "name": "2. `orgAccountId",
+          "type": "String"
+        },
+        {
+          "name": "3. `organizationId",
+          "type": "String"
+        },
+        {
+          "name": "4. `name",
+          "type": "String"
+        },
+        {
+          "name": "5. `pixelType",
+          "type": "Array(String)"
+        },
+        {
+          "name": "6. `order",
+          "type": "Int32"
+        },
+        {
+          "name": "7. `size",
+          "type": "String"
+        },
+        {
+          "name": "8. `value",
+          "type": "String"
+        },
+        {
+          "name": "9. `createdAt",
+          "type": "DateTime"
+        },
+        {
+          "name": "10. `updatedAt",
+          "type": "DateTime"
+        },
+        {
+          "name": "11. `__v",
+          "type": "Int32"
+        }
+      ]
+    },
+    "users": {
+      "raw_description": "The structure of the table 'users' contains the following columns:\n\n1. **_id**: String\n2. **name**: String\n3. **email**: String\n4. **createdAt**: DateTime\n5. **updatedAt**: DateTime\n6. **__v**: Int32\n7. **clerkId**: String\n8. **permission**: Array(String)",
+      "columns": [
+        {
+          "name": "The structure of the table 'users' contains the following columns",
+          "type": ""
+        },
+        {
+          "name": "1. **_id**",
+          "type": "String"
+        },
+        {
+          "name": "2. **name**",
+          "type": "String"
+        },
+        {
+          "name": "3. **email**",
+          "type": "String"
+        },
+        {
+          "name": "4. **createdAt**",
+          "type": "DateTime"
+        },
+        {
+          "name": "5. **updatedAt**",
+          "type": "DateTime"
+        },
+        {
+          "name": "6. **__v**",
+          "type": "Int32"
+        },
+        {
+          "name": "7. **clerkId**",
+          "type": "String"
+        },
+        {
+          "name": "8. **permission**",
+          "type": "Array(String)"
+        }
+      ]
+    },
+    "users_access": {
+      "raw_description": "The structure of the table 'users_access' consists of the following columns:\n\n1. **_id**: Type - `String`\n2. **userId**: Type - `String`\n3. **organizationId**: Type - `String`\n4. **roleType**: Type - `String`\n5. **advertisers**: Type - `Array(String)`\n6. **createdAt**: Type - `DateTime`\n7. **updatedAt**: Type - `DateTime`\n8. **__v**: Type - `Int32`",
+      "columns": [
+        {
+          "name": "The structure of the table 'users_access' consists of the following columns",
+          "type": ""
+        },
+        {
+          "name": "1. **_id**",
+          "type": "Type - `String`"
+        },
+        {
+          "name": "2. **userId**",
+          "type": "Type - `String`"
+        },
+        {
+          "name": "3. **organizationId**",
+          "type": "Type - `String`"
+        },
+        {
+          "name": "4. **roleType**",
+          "type": "Type - `String`"
+        },
+        {
+          "name": "5. **advertisers**",
+          "type": "Type - `Array(String)`"
+        },
+        {
+          "name": "6. **createdAt**",
+          "type": "Type - `DateTime`"
+        },
+        {
+          "name": "7. **updatedAt**",
+          "type": "Type - `DateTime`"
+        },
+        {
+          "name": "8. **__v**",
+          "type": "Type - `Int32`"
+        }
+      ]
+    },
+    "voices": {
+      "raw_description": "The structure of the table 'voices' includes the following columns with their respective data types:\n\n1. `_id`: String\n2. `voiceId`: String\n3. `name`: String\n4. `category`: String\n5. `language`: String\n6. `__v`: Int32\n7. `labels_accent`: String\n8. `labels_description`: String\n9. `labels_age`: String\n10. `labels_gender`: String\n11. `labels_use_case`: String\n12. `fine_tune_allowed`: Bool\n13. `fine_tune_manual_verification_requested`: Bool\n14. `fine_tune_language`: String\n15. `fine_tune_verification_attempts_count`: UInt8\n16. `fine_tune_max_verification_attempts`: UInt8\n17. `fine_tune_next_reset_unix_ms`: UInt64\n18. `voice_verification_requires`: Bool\n19. `voice_verification_is_verified`: Bool\n20. `voice_verification_attempts_count`: Int32",
+      "columns": [
+        {
+          "name": "The structure of the table 'voices' includes the following columns with their respective data types",
+          "type": ""
+        },
+        {
+          "name": "1. `_id",
+          "type": "String"
+        },
+        {
+          "name": "2. `voiceId",
+          "type": "String"
+        },
+        {
+          "name": "3. `name",
+          "type": "String"
+        },
+        {
+          "name": "4. `category",
+          "type": "String"
+        },
+        {
+          "name": "5. `language",
+          "type": "String"
+        },
+        {
+          "name": "6. `__v",
+          "type": "Int32"
+        },
+        {
+          "name": "7. `labels_accent",
+          "type": "String"
+        },
+        {
+          "name": "8. `labels_description",
+          "type": "String"
+        },
+        {
+          "name": "9. `labels_age",
+          "type": "String"
+        },
+        {
+          "name": "10. `labels_gender",
+          "type": "String"
+        },
+        {
+          "name": "11. `labels_use_case",
+          "type": "String"
+        },
+        {
+          "name": "12. `fine_tune_allowed",
+          "type": "Bool"
+        },
+        {
+          "name": "13. `fine_tune_manual_verification_requested",
+          "type": "Bool"
+        },
+        {
+          "name": "14. `fine_tune_language",
+          "type": "String"
+        },
+        {
+          "name": "15. `fine_tune_verification_attempts_count",
+          "type": "UInt8"
+        },
+        {
+          "name": "16. `fine_tune_max_verification_attempts",
+          "type": "UInt8"
+        },
+        {
+          "name": "17. `fine_tune_next_reset_unix_ms",
+          "type": "UInt64"
+        },
+        {
+          "name": "18. `voice_verification_requires",
+          "type": "Bool"
+        },
+        {
+          "name": "19. `voice_verification_is_verified",
+          "type": "Bool"
+        },
+        {
+          "name": "20. `voice_verification_attempts_count",
+          "type": "Int32"
+        }
+      ]
+    },
+    "waitlist": {
+      "raw_description": "The table 'waitlist' has the following columns:\n\n1. **_id**\n   - Type: String\n\n2. **waitlistId**\n   - Type: String\n\n3. **email**\n   - Type: String\n\n4. **status**\n   - Type: String\n\n5. **product**\n   - Type: String\n\n6. **createdAt**\n   - Type: DateTime\n\n7. **updatedAt**\n   - Type: DateTime\n\n8. **invitationId**\n   - Type: String\n\n9. **__v**\n   - Type: Int32",
+      "columns": [
+        {
+          "name": "The table 'waitlist' has the following columns",
+          "type": ""
+        },
+        {
+          "name": "Type",
+          "type": "String"
+        },
+        {
+          "name": "Type",
+          "type": "String"
+        },
+        {
+          "name": "Type",
+          "type": "String"
+        },
+        {
+          "name": "Type",
+          "type": "String"
+        },
+        {
+          "name": "Type",
+          "type": "String"
+        },
+        {
+          "name": "Type",
+          "type": "DateTime"
+        },
+        {
+          "name": "Type",
+          "type": "DateTime"
+        },
+        {
+          "name": "Type",
+          "type": "String"
+        },
+        {
+          "name": "Type",
+          "type": "Int32"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "deployment":{
+        "NAME": "PFBM-MCP-SERVER-V3",
+        "ENV" : "dev"
+    },
+    "clickhouse":{
+        "CLICKHOUSE_USERNAME" : "",
+        "CLICKHOUSE_PASSWORD" : "",
+        "CLICKHOUSE_HOSTNAME" : "",
+        "CLICKHOUSE_DBNAME" : "platformance_core_db"
+    },
+    "SERVICE_SECRETS":{
+        "PROD_ACCESS_TOKEN_SECRET" : "",
+        "TEST_ACCESS_TOKEN_SECRET" : ""
+    }
+}

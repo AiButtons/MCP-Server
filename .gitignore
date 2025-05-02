@@ -1,0 +1,11 @@
+__pycache__
+**/__pycache__
+**/**.json.tmp
+**/cdk.out
+cdk.out
+cdk.out/*
+**/cdk.out/**
+**/config.json
+**/cdk.context.json
+.env
+.venv
