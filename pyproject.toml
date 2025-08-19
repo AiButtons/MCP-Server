@@ -3,7 +3,7 @@ name = "MCP-Server"
 version = "0.0.1"
 description = "MCP server"
 authors = [
-    { name = "Sandeep Patra", email = "sandeep@platformance.io" },
+    { name = "Sandeep Patra", email = "sandeeppatra96@gmail.com" },
 ]
 readme = "README.md"
 requires-python = ">=3.11"
