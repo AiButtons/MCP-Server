@@ -7,7 +7,7 @@
         "CLICKHOUSE_USERNAME" : "",
         "CLICKHOUSE_PASSWORD" : "",
         "CLICKHOUSE_HOSTNAME" : "",
-        "CLICKHOUSE_DBNAME" : "platformance_core_db"
+        "CLICKHOUSE_DBNAME" : "core_db"
     },
     "SERVICE_SECRETS":{
         "PROD_ACCESS_TOKEN_SECRET" : "",
